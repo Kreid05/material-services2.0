@@ -24,10 +24,11 @@ app.add_middleware(
         "https://bleu-ums.onrender.com",  # auth service
 
         # POS
-        "https://bleu-pos-eight.vercel.app",  # frontend
+        "https://sales-service-bm35.onrender.com",  # backend
 
         # OOS
-        "https://bleu-oos.vercel.app",
+        "https://bleu-oos.vercel.app", # frontend
+        
     ],
     allow_credentials=True,
     allow_methods=["*"],
